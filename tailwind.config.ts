@@ -19,6 +19,9 @@ const config: Config = {
         100:'30rem',
       }
     },
+    container:{
+padding:'2rem',
+    }
   },
   variants:{
     extend:{},
