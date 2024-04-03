@@ -84,7 +84,7 @@ const Carousel: React.FC = () => {
           <div className={`relative h-auto overflow-hidden rounded-lg md:h-auto w-3/4 items-center grid grid-cols-1 lg:grid-cols-3 gap-3 pt-10 ${isMobileView ? 'sm:grid-cols-1' : ''}`}>
             {carouselItems.map((item, index) => (
               <div key={index} className={`${isMobileView ? (index === currentSlide ? 'block' : 'hidden') : ''} ${!isMobileView ? (index >= currentSlide && index < currentSlide + 3 ? 'block' : 'hidden') : ''} duration-700 ease-in-out`} data-carousel-item>
-                <div className="block p-6 bg-white dark:bg-[#3B3E47] border border-gray-200 dark:border-gray-800 hover:shadow-lg hover:shadow-gray-400">
+                <div className="block p-6 bg-white dark:bg-[#3B3E47] border border-gray-200 dark:border-gray-800 hover:shadow-lg hover:shadow-gray-400 h-102">
                   <img
                     src={item.imageSrc}
                     className="block object-cover w-full relative z-0 transition-all duration-300 hover:scale-105 h-100"

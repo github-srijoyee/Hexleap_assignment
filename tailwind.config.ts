@@ -17,6 +17,7 @@ const config: Config = {
       },
       height:{
         100:'30rem',
+        102:'34rem'
       }
     },
     container:{
