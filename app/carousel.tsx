@@ -95,7 +95,7 @@ const Carousel: React.FC = () => {
                   <div className="w-[20px] h-[20px] bg-gradient-to-r from-[#F9F8FF] to-[#F3F9FF] dark:bg-gradient-to-r dark:from-[#18282A] dark:to-[#18272A]  absolute translate-x-[12px] right-0 top-[-8px] rounded-full"></div>
                 </div>
                 <hr className="border-dashed border-gray-700"/>
-                <div className="block p-6 bg-white dark:bg-[#3B3E47] hover:shadow-lg hover:shadow-gray-400">
+                <div className="block p-6 bg-white dark:bg-[#3B3E47] hover:shadow-lg hover:shadow-gray-400 h-64">
                   <h1 className="mb-2 text-md pt-2 font-semibold text-gray-900 dark:text-white flex justify-center">{item.title}</h1>
                   <h1 className="mb-2 text-md pt-2 font-light text-gray-900 dark:text-white flex justify-center">{item.time}</h1>
                   <p className=" font-extralight text-md flex justify-center justify-items-center">{item.place}</p>
