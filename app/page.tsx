@@ -16,7 +16,7 @@ export default function Home() {
     <h1 className="mb-2 text-md font-semibold text-gray-900 pt-2 dark:text-white">
         Sacramento River Cats
     </h1>
-    <div className="block p-2 bg-[#F7F7F8] dark:bg-[#292B32]
+    <div className=" p-2 bg-[#F7F7F8] dark:bg-[#292B32]
           rounded-md grid-cols-2 flex justify-between">
             <div>
             <p className=" font-extralight text-xs">
